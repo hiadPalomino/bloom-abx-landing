@@ -3,15 +3,14 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/bloom-abx-landing", // ✅ Requerido para GitHub Pages con dominio personalizado
+  base: mode === "production" ? "/" : "/", // puedes ajustar si haces pruebas en otras carpetas
   server: {
     host: "::",
     port: 8080,
   },
   build: {
-    outDir: "dist", // ✅ Carpeta usada por gh-pages
+    outDir: "dist",
   },
   plugins: [
     react(),
