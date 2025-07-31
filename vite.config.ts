@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // ✅ Requerido para GitHub Pages con dominio personalizado
+  base: "/bloom-abx-landing", // ✅ Requerido para GitHub Pages con dominio personalizado
   server: {
     host: "::",
     port: 8080,
