@@ -12,28 +12,28 @@ const Footer = () => {
               <span className="text-2xl font-light">ABXSOLUTU</span>
             </div>
             <p className="text-forest-foreground/80 leading-relaxed max-w-md">
-              Santuario de sanación holística dedicado al bienestar integral 
-              a través de la sabiduría ancestral y prácticas modernas.
+              A holistic healing sanctuary dedicated to integral well-being 
+              through ancient wisdom and modern practices.
             </p>
           </div>
           
           {/* Navigation Links */}
           <div>
-            <h3 className="font-medium mb-4 text-sage">Navegación</h3>
+            <h3 className="font-medium mb-4 text-sage">Navigation</h3>
             <ul className="space-y-2 text-forest-foreground/80">
               <li>
                 <a href="#about" className="hover:text-sage transition-colors">
-                  Acerca de
+                  About
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-sage transition-colors">
-                  Servicios
+                  Services
                 </a>
               </li>
               <li>
                 <a href="#contact" className="hover:text-sage transition-colors">
-                  Contacto
+                  Contact
                 </a>
               </li>
             </ul>
@@ -45,12 +45,12 @@ const Footer = () => {
             <ul className="space-y-2 text-forest-foreground/80">
               <li>
                 <a href="#privacy" className="hover:text-sage transition-colors">
-                  Política de Privacidad
+                  Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#terms" className="hover:text-sage transition-colors">
-                  Términos de Servicio
+                  Terms of Service
                 </a>
               </li>
             </ul>
@@ -59,7 +59,7 @@ const Footer = () => {
         
         <div className="border-t border-forest-foreground/20 mt-8 pt-8 text-center">
           <p className="text-forest-foreground/60">
-            © 2024 Abxsolutu. Todos los derechos reservados.
+            © 2024 Abxsolutu. All rights reserved.
           </p>
         </div>
       </div>
