@@ -14,54 +14,54 @@ import {
 
 const services = [
   {
-    title: "Acupuntura",
+    title: "Acupuncture",
     icon: Target,
-    description: "Técnica milenaria china que equilibra la energía del cuerpo"
+    description: "Ancient Chinese technique that balances the body's energy"
   },
   {
-    title: "Ventosas",
+    title: "Cupping Therapy",
     icon: Zap,
-    description: "Terapia de succión que mejora la circulación y libera tensiones"
+    description: "Suction therapy that improves circulation and releases tension"
   },
   {
-    title: "Moxibustión",
+    title: "Moxibustion",
     icon: Flame,
-    description: "Calor terapéutico que estimula puntos específicos del cuerpo"
+    description: "Therapeutic heat that stimulates specific points on the body"
   },
   {
-    title: "Radiestesia",
+    title: "Dowsing",
     icon: Compass,
-    description: "Detección y armonización de energías sutiles"
+    description: "Detection and harmonization of subtle energies"
   },
   {
-    title: "Equilibrio Bioenergético",
+    title: "Bioenergetic Balance",
     icon: Battery,
-    description: "Restauración del flujo energético natural del organismo"
+    description: "Restoration of the body's natural energy flow"
   },
   {
-    title: "Osteopatía",
+    title: "Osteopathy",
     icon: Activity,
-    description: "Tratamiento manual del sistema músculo-esquelético"
+    description: "Manual treatment of the musculoskeletal system"
   },
   {
-    title: "Quiropráxia Inca",
+    title: "Inca Chiropractic",
     icon: Leaf,
-    description: "Técnicas ancestrales andinas para el alineamiento corporal"
+    description: "Ancient Andean techniques for body alignment"
   },
   {
-    title: "Nutrición Consciente",
+    title: "Conscious Nutrition",
     icon: Apple,
-    description: "Alimentación holística para nutrir cuerpo, mente y espíritu"
+    description: "Holistic nutrition to nourish body, mind, and spirit"
   },
   {
-    title: "Cristaloterapia",
+    title: "Crystal Therapy",
     icon: Gem,
-    description: "Sanación vibracional a través de las propiedades de los cristales"
+    description: "Vibrational healing through the properties of crystals"
   },
   {
-    title: "Constelaciones Familiares",
+    title: "Family Constellations",
     icon: Users,
-    description: "Trabajo sistémico para sanar patrones familiares"
+    description: "Systemic work to heal family patterns"
   }
 ];
 
@@ -71,11 +71,11 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
-            Nuestras Prácticas de Sanación
+            Our Healing Practices
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Exploramos un amplio espectro de disciplinas ancestrales y modernas 
-            para ofrecerte un enfoque integral de bienestar
+            We explore a broad range of ancient and modern disciplines 
+            to offer you a holistic approach to well-being
           </p>
         </div>
         

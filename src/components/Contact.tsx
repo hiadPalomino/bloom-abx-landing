@@ -18,8 +18,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Mensaje enviado",
-      description: "Nos pondremos en contacto contigo pronto.",
+      title: "Message Sent",
+      description: "We will get back to you soon.",
     });
     setFormData({ name: "", email: "", message: "" });
   };
@@ -36,10 +36,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6">
-            ¿Listo para Comenzar tu Viaje de Sanación?
+            Ready to Begin Your Healing Journey?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Conectemos y encontremos el camino adecuado para ti
+            Let’s connect and find the right path for you
           </p>
         </div>
         
@@ -68,7 +68,7 @@ const Contact = () => {
                 <div className="mx-auto mb-4 p-3 rounded-full bg-primary/10">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg font-medium">Teléfono</CardTitle>
+                <CardTitle className="text-lg font-medium">Phone</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <a 
@@ -84,12 +84,12 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="bg-card/70 backdrop-blur-sm border-sage/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-light text-center">Envíanos un Mensaje</CardTitle>
+              <CardTitle className="text-2xl font-light text-center">Send Us a Message</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Nombre</Label>
+                  <Label htmlFor="name">Name</Label>
                   <Input
                     id="name"
                     name="name"
@@ -114,7 +114,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="message">Mensaje</Label>
+                  <Label htmlFor="message">Message</Label>
                   <Textarea
                     id="message"
                     name="message"
@@ -132,7 +132,7 @@ const Contact = () => {
                   size="lg" 
                   className="w-full"
                 >
-                  Enviar Mensaje
+                  Send Message
                 </Button>
               </form>
             </CardContent>
