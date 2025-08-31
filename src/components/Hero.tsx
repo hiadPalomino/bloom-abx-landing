@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-light text-foreground mb-4 tracking-wide">
-            BODY. MIND. ENERGY.
+            BODY MIND ENERGY
           </h1>
           <h2 className="text-4xl md:text-6xl font-extralight text-primary mb-8">
             ABXSOLUTU
